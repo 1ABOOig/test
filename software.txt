@@ -1,0 +1,44 @@
+娱乐
+1steam
+2wallpaper Engine
+3向日葵
+4网易云音乐
+5微信
+6QQ
+7钉钉
+8腾讯会议
+9腾讯视频
+10百度网盘
+11microsoft edge
+12chrome
+13Internet Explorer
+14EasyConnect（进知网）
+15金山PDF独立版
+16同花顺
+17委托交易
+18未来教育
+19有道词典
+
+专业软件
+1Adobe Auditon
+2Adobe Photoshop
+3AfterFX
+4微信开发者工具
+5matlab
+6Quartus
+7Altium Designer
+8Visual Studio 2013
+9visual c++ 6.0（完整绿色版）
+10keil(D盘KEILC51V9（Uv4）)
+11proteus 8 Professional
+12multisim
+13stc-isp-15xx-v6.87e
+14普中自动下载软件
+15solidword 
+16RDWorksV8
+17sublime Text 3
+18OpenMV
+19code composer studio
+20Arduino
+21Mixly
+VMware workstation
