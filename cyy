@@ -1,1 +1,160 @@
 
+#define _CRT_SECURE_NO_WARNINGS 1
+
+//复习c语言
+
+#include "stdio.h"
+#include "string.h"
+
+int main()
+{
+	int a = 10;
+	int* p = &a;
+	printf("%p\n", &a);
+	printf("%p\n", p);
+	*p = 20;
+	printf("a=%d\n", a);
+	return 0;
+}
+
+
+
+
+
+//int main()
+//{
+//    register int a = 10;//放在寄存器里让Cpu更快的访问数据
+//	
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 10;
+//	return 0;
+//}
+
+//int add(int a,int b)
+//{
+//	int z = 0;
+//	z = a + b;
+//	return z;
+//}
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	arr[4];
+//	int c = 10;
+//	int d = 20;
+//	int sum=add(c,d);
+//	printf("%d\n", sum);
+//	return 0;
+//}
+
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 12;
+//	int c = (a > b) ? a : b;//真是a
+//	printf("%d\n", c);
+//	return 0;
+//}
+
+
+
+
+//
+//int main()
+//{
+//	int a = 0;
+//	int b = 19;
+//	int c = a&&b;
+//	printf("%d", c);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = (int)3.14;//强制类型转换
+//	printf("%d\n", a);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 10;
+//	int b = ++a;//先使用在++
+//	//int b=a++;
+//	printf("a=%d,b=%d\n", a, b);
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	int a = 0;
+//	int b =~a;//按位取反
+//	printf("%d\n", b);
+//	return 0;
+//
+//}
+//
+
+
+//int main()
+//{
+//	char arr1[] = "abc";//"abc"--'a','b','c','\0'  字符串的结束标志
+//	char arr2[] = { 'a', 'b', 'c',0 };
+//	printf("%s\n", arr1);
+//	printf("%s\n", arr2);
+//
+//}
+////枚举常量  （一一列举）
+//
+//enum sex
+//{
+//	male,
+//	female,
+//	secret
+//};
+//int main()
+//{
+//	enum sex s = female;
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+	//#define 定义的标识符
+	/*#define MAX 10
+	int main()
+	{
+		int arr[MAX] = { 0 };
+		printf("%d\n", MAX);
+		return 0;
+	}*/
+
+
+	//const int n = 10;//n是变量 但是又是常属性 所以说n是常变量
+	//int arr[n] = { 0 }；
+
+
+	/*//const 修饰的常变量（不能变）
+	const int num = 4;
+	printf("%d\n", num);
+	int num = 8;
+	printf("%d\n", num);*/
+	
+	
+	/*int mum1 = 0;
+	int mum2 = 0;
+	scanf("%d%d",&mum1,&mum2);
+	int sum = 0;
+	sum = mum1 + mum2;
+	printf("%d", sum);
+	return 0;*/
+//}
